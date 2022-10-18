@@ -1,0 +1,128 @@
+.my-bg{
+    background: #f9f9ff;
+    
+}
+
+.me-bio-text {
+	margin-top: 160px;
+}
+
+.defult-button{
+    background: #8490ff;
+    font-weight: 500;
+    border: none;
+}
+
+.number-counter{
+    background: #8490ff;
+    color: white;
+}
+.number-counter {
+    font-weight: 600;
+
+}
+
+.number-counter p{
+    font-weight: 500;
+}
+
+.service-plan{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    border-radius: 10px;
+    background: white;
+}
+
+.service-plan h1{
+    background: #f9f9ff;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-radius: 50%;
+    line-height: 100px;
+}
+
+.service-plan button{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+
+/* ==== Admin panel Area Start ====  */
+
+.card,.card-footer,.card-header{
+    border: none;
+    background: none;
+    
+}
+
+.card{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    background: white;
+}
+
+.card-header img {
+	width: 110px;
+	margin: -99px 0px -36px -120px;
+}
+
+
+.card-footer button{
+    box-shadow: 2.5px 4.33px 20px 0 rgba(41, 68, 189, 0.468);
+    border: none;
+
+}
+
+.card-footer button:hover{
+    background: #465052;
+    color: white;
+    transition: .5s;
+}
+
+.top-card {
+	padding: 100px 0 0 0;
+}
+/* ==== Admin Panlen End ====  */
+
+/* ====== Contact Area start ====  */
+.form-div{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    padding: 50px;
+    border-radius: 10px;
+    background: white;
+}
+.form-control {
+	padding: 10px;
+	margin-bottom: 10px;
+    box-shadow: 2.5px 4.33px 20px 0 rgba(64,87,191,0.2);
+}
+
+.textarea-h{
+    height: 150px;
+}
+.submit-button button{
+    border: none;
+    border: 2px solid transparent;
+    background: #17a2b8 ;
+}
+
+
+.submit-button button:hover{
+    background: white;	
+    color: #6278df;
+    border: 2px solid #6278df;
+    
+}
+/* ====== Contact Area End ====  */
+
+footer p{
+    color: white;
+  
+    
+}
+
+@media all and (max-width: 576px) {
+    .admin-pt{
+        padding-top: 70px;
+    }
+    .touch{
+        text-align: center;
+    }
+}
